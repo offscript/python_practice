@@ -8,7 +8,7 @@ class Employee():
 		self.race = race
 		self.age = age
 		self.experience = experience
-'''
+
 class Executive(Employee):
 
 	def __init__(self, wage, gender, race, age, experience):
@@ -20,4 +20,42 @@ class Executive(Employee):
 		self.race = race
 		self.age = age
 		self.experience = experience
-'''
+
+class Manager(Employee):
+
+	def __init__(self, wage, gender, race, age, experience):
+
+		super().__init__(wage, gender, race, age, experience)
+
+		self.wage = wage
+		self.gender = gender
+		self.race = race
+		self.age = age
+		self.experience = experience
+
+class SalesAssociate(Employee):
+
+	def __init__(self, wage, gender, race, age, experience):
+
+		super().__init__(wage, gender, race, age, experience)
+
+		self.wage = wage
+		self.gender = gender
+		self.race = race 
+		self.age = age
+		self.experience = experience
+
+class HumanResource(Employee):
+
+	def __init__(self, wage, gender, race, age, experience):
+
+		super().__init__(wage, gender, race, age, experience)
+
+		self.wage = wage
+		self.gender = gender 
+		self.race = race
+		self.age = age
+		self.experience = experience
+
+
+
